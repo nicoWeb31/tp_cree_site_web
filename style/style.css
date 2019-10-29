@@ -1,8 +1,22 @@
+/* typographie */
+
+
+@font-face {
+    font-family: 'advent_proregular';
+    src: url('../font/adventpro-regular-webfont.woff2') format('woff2'),
+         url('../font/adventpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
 
     /* background-image: url(/img/gnu-debian-linux-logo-wallpaper.jpg); */
     color: rgb(218, 200, 173);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'advent_proregular', sans-serif;
+    font-size: 18px;
     background-color: rgb(53, 51, 48);
 }
 
@@ -37,7 +51,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 26px;
 
 
 }
@@ -62,13 +76,19 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 700px;
-    transition: transform 0.5s;
+    transition: transform 0.2s;
 
 }
 
 li {
-    transition: transform 0.5s ease;
+    transition: transform 0.2s ease;
+    
+}
 
+li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(218, 200, 173);
 }
 
 li:hover {
@@ -180,7 +200,8 @@ li:hover {
 
 .bule11:hover{
 
-    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5); 
+    
 }
 
 .bule12 {
@@ -382,5 +403,110 @@ padding: 10px;
 }
 
 .bule32:hover{
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
+}
+/* vignette de la page html/css */
+/* vignette de la page html/css */
+/* vignette de la page html/css */
+
+.bule13 {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    width: 100%;
+    height: 450px;
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
+    
+}
+
+.bule13 p {
+
+    margin: 0px 20px;
+    
+}
+
+.bule13 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule13 img{
+
+padding: 10px;
+}
+
+.bule13:hover{
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
+}
+
+.bule23 {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    width: 100%;
+    height: 450px;
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
+    
+}
+
+.bule23 p {
+
+    margin: 0px 20px;
+    
+}
+
+.bule23 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule23 img{
+
+padding: 10px;
+}
+
+.bule23:hover{
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
+}
+
+.bule33 {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    width: 100%;
+    height: 450px;
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
+    
+}
+
+.bule33 p {
+
+    margin: 0px 20px;
+    
+}
+
+.bule33 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule33 img{
+
+padding: 10px;
+}
+
+.bule33:hover{
     box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
 }
