@@ -62,7 +62,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 700px;
-    transition: transform 1s;
+    transition: transform 0.5s;
 
 }
 
@@ -74,7 +74,7 @@ li {
 li:hover {
 
     transform: scale(1.1);
-    text-shadow: 1px 1px 1px 1px darkgray;
+    text-shadow: 2px 2px 2px 2px rgb(51, 48, 48);
     color: rgb(241, 231, 233);
 
 }
@@ -88,8 +88,8 @@ li:hover {
     flex-direction: column;
     align-items: center;
     align-content: flex-start;
-    /* position: sticky; */
-    top: 10px;
+    position: sticky; 
+    top: 0px;
 
 }
 
@@ -134,16 +134,9 @@ li:hover {
     
 }
 
-.elem2 {
-    width: 350px;
-    grid-area: elem2;
-    border: solid 1px black;
-}
-
-.elemt3 {
-    width: 350px;
-    grid-area: elemt3;
-    border: solid 1px black;
+.elem1 img{
+    padding:10px;
+    width: 100%;
 }
 
 .footer {
@@ -156,32 +149,33 @@ li:hover {
 
 }
 
-/* les vignettes bulles */
+/* les vignettes bulles premiere colonne */
+/* les vignettes bulles premiere colonne */
+/* les vignettes bulles premiere colonne */
 
 .bule11 {
 
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
     align-content: center;
-    width: 300px;
+    width: 100%;
     height: 450px;
     border: black;
     padding-bottom: 5%;
     margin: 10% 0%;
-   
+      
+}
 
+.bule11 p {
+
+    margin: 0px 20px;
     
 }
 
 .bule11 h1 {
     font-size: 20px;
     font-weight: bold;
-}
-
-.bule11 img{
-
-    align-items: center;
 }
 
 .bule11:hover{
@@ -193,12 +187,19 @@ li:hover {
 
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
     align-content: center;
-    width: 300px;
+    width: 100%;
     height: 450px;
-    border: solid black 1px;
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
+    
+}
 
+.bule12 p {
+
+    margin: 0px 20px;
     
 }
 
@@ -207,38 +208,179 @@ li:hover {
     font-weight: bold;
 }
 
-.bule12 img{
-
-    align-items: center;
-}
-
 .bule12:hover{
-    box-shadow:10px 10px 10px 10px black;
+   
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
 }
-.bule13 {
+
+
+
+/* les vignettes bulles deusieme colonne */
+/* les vignettes bulles deusieme colonne */
+/* les vignettes bulles deusieme colonne */
+
+.elem2 {
+    width: 350px;
+    grid-area: elem2;
+}
+
+
+.elem2 img{
+    padding:10px;
+    width: 100%;
+}
+
+
+
+.bule21 {
 
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
     align-content: center;
-    width: 300px;
+    width: 100%;
     height: 450px;
-    border: solid black 1px;
-
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
     
 }
 
-.bule13 h1 {
+.bule21 p {
+
+    margin: 0px 20px;
+    
+}
+
+.bule21 h1 {
     font-size: 20px;
     font-weight: bold;
 }
 
-.bule13 img{
+.bule21 img{
 
-    align-items: center;
+padding: 10px;
 }
 
-.bule13:hover{
-    box-shadow:10px 10px 10px 10px black;
+.bule21:hover{
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
 }
 
+.bule22 {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    width: 100%;
+    height: 450px;
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
+    
+}
+
+.bule22 p {
+
+    margin: 0px 20px;
+    
+}
+
+.bule22 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule22 img{
+
+padding: 10px;
+}
+
+.bule22:hover{
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
+}
+
+/* les vignettes bulles deusieme colonne */
+/* les vignettes bulles deusieme colonne */
+/* les vignettes bulles deusieme colonne */
+
+
+.elemt3 {
+    width: 350px;
+    grid-area: elemt3;
+
+}
+
+
+.elemt3 img{
+    padding:10px;
+    width: 100%;
+}
+
+.bule31 {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    width: 100%;
+    height: 450px;
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
+    
+}
+
+.bule31 p {
+
+    margin: 0px 20px;
+    
+}
+
+.bule31 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule31 img{
+
+padding: 10px;
+}
+
+.bule31:hover{
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
+}
+
+.bule32 {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    width: 100%;
+    height: 450px;
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
+    
+}
+
+.bule32 p {
+
+    margin: 0px 20px;
+    
+}
+
+.bule32 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule32 img{
+
+padding: 10px;
+}
+
+.bule32:hover{
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
+}
