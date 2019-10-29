@@ -1,9 +1,9 @@
-
 body {
 
-    background-image: url(/img/gnu-debian-linux-logo-wallpaper.jpg);
+    /* background-image: url(/img/gnu-debian-linux-logo-wallpaper.jpg); */
     color: rgb(218, 200, 173);
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(53, 51, 48);
 }
 
 .grid-container {
@@ -11,14 +11,14 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar"
-    "bando bando bando bando bando bando bando bando bando"
-    "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-    "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-    "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-    "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-    "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-    "footer footer footer footer footer footer footer footer footer";
-  
+        "bando bando bando bando bando bando bando bando bando"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "footer footer footer footer footer footer footer footer footer";
+
 }
 
 
@@ -29,27 +29,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
+
 
 }
-
-/* .section_gauche {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: space-between;
-    border: solid 1px black;
-} */
-
-/* .section_droite {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid 1px black;
-
-} */
-
 
 ul {
 
@@ -75,7 +57,7 @@ ul {
 
 }
 
-li{
+li {
     transition: transform 0.5s ease;
 
 }
@@ -90,19 +72,19 @@ li:hover {
 
 .bando {
 
-grid-area:bando;
+    grid-area: bando;
 
 
 }
 
 .bando {
-    background-color:rgba(139, 98, 98,0.15);
+    background-color: rgba(139, 98, 98, 0.15);
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: flex-start;
     position: sticky;
-    top :10px;
+    top: 10px;
 
 }
 
@@ -113,28 +95,33 @@ grid-area:bando;
     display: flex;
     flex-direction: column;
     padding-left: 80px;
-    
-    
+    padding-right: 50px;
+
+
 }
 
-a{
-    padding: 5px;
+.aside a {
+    margin-right: 200px;
+    padding: 10px;
     display: inline;
     text-decoration: none;
-    list-style: none;  
+    list-style: none;
     color: rgb(218, 200, 173);
-    transition: transform 2s ease;
+
+
+
 
 }
-a:hover {
 
-    transform: scale(1.1);
+.aside a:hover {
+
+
     text-shadow: 1px 1px 1px 1px darkgray;
     color: rgb(241, 231, 233);
-
+    background-color: rgba(139, 98, 98, 0.15);
 
 }
-   
+
 
 .elem1 {
     grid-area: elem1;
@@ -154,9 +141,39 @@ a:hover {
 .footer {
 
     display: flex;
-    justify-content:center;
-    align-items:center;
-    background-color:rgba(139, 98, 98,0.15);
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(139, 98, 98, 0.15);
     grid-area: footer;
-   
+
+}
+
+/* les vignettes bulles */
+
+.bule11 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 3px;
+    width: 400px;
+    height: 300px;
+}
+.bule12 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 3px;
+    width: 400px;
+    height: 300px;
+}
+.bule13 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 3px;
+    width: 400px;
+    height: 300px;
 }
