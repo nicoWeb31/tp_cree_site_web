@@ -8,8 +8,8 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar"
         "bando bando bando bando bando bando bando bando bando"
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
@@ -17,7 +17,15 @@ body {
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3" 
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3" 
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3" 
         "footer footer footer footer footer footer footer footer footer";
+        row-gap: 10px;
+        column-gap: 10px; 
 
 }
 
@@ -29,6 +37,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    font-size: 20px;
 
 
 }
@@ -70,32 +79,28 @@ li:hover {
 
 }
 
-.bando {
 
+
+.bando {
     grid-area: bando;
-
-
-}
-
-.bando {
     background-color: rgba(139, 98, 98, 0.15);
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: flex-start;
-    position: sticky;
+    /* position: sticky; */
     top: 10px;
 
 }
 
 .aside {
 
-
+    
     grid-area: aside;
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
-    padding-right: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
 
 
 }
@@ -124,16 +129,19 @@ li:hover {
 
 
 .elem1 {
+    width: 350px;
     grid-area: elem1;
-    border: solid 1px black;
+    
 }
 
 .elem2 {
+    width: 350px;
     grid-area: elem2;
     border: solid 1px black;
 }
 
 .elemt3 {
+    width: 350px;
     grid-area: elemt3;
     border: solid 1px black;
 }
@@ -154,26 +162,83 @@ li:hover {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: solid black 3px;
-    width: 400px;
-    height: 300px;
+    align-items:flex-start;
+    align-content: center;
+    width: 300px;
+    height: 450px;
+    border: black;
+    padding-bottom: 5%;
+    margin: 10% 0%;
+   
+
+    
 }
+
+.bule11 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule11 img{
+
+    align-items: center;
+}
+
+.bule11:hover{
+
+    box-shadow:15px 15px 15px 15px rgba(37, 36, 36, 0.5);
+}
+
 .bule12 {
 
     display: flex;
     flex-direction: column;
+    align-items:flex-start;
+    align-content: center;
+    width: 300px;
+    height: 450px;
+    border: solid black 1px;
+
+    
+}
+
+.bule12 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule12 img{
+
     align-items: center;
-    border: solid black 3px;
-    width: 400px;
-    height: 300px;
+}
+
+.bule12:hover{
+    box-shadow:10px 10px 10px 10px black;
 }
 .bule13 {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: solid black 3px;
-    width: 400px;
-    height: 300px;
+    align-items:flex-start;
+    align-content: center;
+    width: 300px;
+    height: 450px;
+    border: solid black 1px;
+
+    
 }
+
+.bule13 h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bule13 img{
+
+    align-items: center;
+}
+
+.bule13:hover{
+    box-shadow:10px 10px 10px 10px black;
+}
+
