@@ -23,7 +23,7 @@ body {
     zoom: 70%;
 }
 
-.grid-container {
+/* .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -42,32 +42,23 @@ body {
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
         "footer footer footer footer footer footer footer footer footer"
-        "footer footer footer footer footer footer footer footer footer";
+        "footer footer footer footer footer footer footer footer footer"; 
 
     row-gap: 10px;
     column-gap: 10px;
 
-}
+}  */
 
 
 /*bar de navigation  */
 .nave_bar {
-    background-color: rgb(53, 51, 48) ;
-    grid-area: nave_bar;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 26px;
-    /* position fixe avec les 4 veulteur top : haut left:gauche width:largeur  heith auteur*/
-    position: fixed;
     top: 40px;
     left: 0;
     width: 100%;
     padding: 40px;
-    
-    
-    box-shadow: 16px 15px 37px 12px  rgba(139, 98, 98, 0.15);
+    font-size: 26px;
+    background-color: rgb(53, 51, 48) ;
+    box-shadow: 16px 15px 37px 12px  rgba(139, 98, 98, 0.15); 
 
 }
 
@@ -112,8 +103,15 @@ li:hover {
     transform: scale(1.1);
     text-shadow: 2px 2px 2px 2px rgb(51, 48, 48);
     color: rgb(241, 231, 233);
+    text-decoration: none;
 
 }
+li a:hover {
+
+    background-color:rgb(218, 200, 173);
+    color : rgb(53, 51, 48);
+}
+
 
 /* ========================================================================== */
 /* Menu deroulant debut */
@@ -165,13 +163,14 @@ li:hover .sub {
 
 
 .bando {
-    grid-area: bando;
+    
     background-color: rgba(139, 98, 98, 0.15);
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: flex-start;
-    /* position: sticky;  */
+    position: sticky; 
+    z-index: 100;
     top: 0px;
 
 }
