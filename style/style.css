@@ -26,9 +26,10 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar"
         "bando bando bando bando bando bando bando bando bando"
+        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
         "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
@@ -156,6 +157,10 @@ li:hover .sub {
 /* ========================================================================== */
 /* menu deroulant fin */
 /* ========================================================================== */
+/* ========================================================================== */
+/*  */
+/* ========================================================================== */
+
 
 
 
