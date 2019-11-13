@@ -1,4 +1,17 @@
-/* typographie */
+/* xs = Extra small <576px
+Max container width None (auto)
+
+sm = Small ≥576px
+Max container width 540px
+
+md = Medium ≥768px
+Max container width 720px
+
+lg = Large ≥992px
+Max container width 960px
+
+xl = Extra large ≥1200px
+Max container width 1140px */
 
 
 @font-face {
@@ -22,33 +35,6 @@ body {
     padding: 0px;
     zoom: 70%;
 }
-
-/* .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar nave_bar"
-        "bando bando bando bando bando bando bando bando bando"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "aside aside aside elem1 elem1 elem2 elem2 elemt3 elemt3"
-        "footer footer footer footer footer footer footer footer footer"
-        "footer footer footer footer footer footer footer footer footer"; 
-
-    row-gap: 10px;
-    column-gap: 10px;
-
-}  */
-
 
 /*bar de navigation  */
 .nave_bar {
@@ -293,42 +279,6 @@ li:hover .sub {
 
 }
 
-.bule12 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule12 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule12 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule12:hover {
-
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
-}
-
-
-
-/* les vignettes bulles deusieme colonne */
-/* les vignettes bulles deusieme colonne */
-/* les vignettes bulles deusieme colonne */
-
 .elem2 {
     width: 350px;
     grid-area: elem2;
@@ -340,81 +290,6 @@ li:hover .sub {
     width: 100%;
 }
 
-
-
-.bule21 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule21 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule21 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule21 img {
-
-    padding: 10px;
-}
-
-.bule21:hover {
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
-}
-
-.bule22 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule22 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule22 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule22 img {
-
-    padding: 10px;
-}
-
-.bule22:hover {
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
-}
-
-/* les vignettes bulles deusieme colonne */
-/* les vignettes bulles deusieme colonne */
-/* les vignettes bulles deusieme colonne */
-
-
 .elemt3 {
     width: 350px;
     grid-area: elemt3;
@@ -425,215 +300,6 @@ li:hover .sub {
 .elemt3 img {
     padding: 10px;
     width: 100%;
-}
-
-.bule31 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule31 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule31 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule31 img {
-
-    padding: 10px;
-}
-
-.bule31:hover {
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
-}
-
-.bule32 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule32 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule32 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule32 img {
-
-    padding: 10px;
-}
-
-.bule32:hover {
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
-}
-
-/* vignette de la page html/css */
-/* vignette de la page html/css */
-/* vignette de la page html/css */
-
-.bule13 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule13 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule13 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule13 img {
-
-    padding: 10px;
-}
-
-.bule13:hover {
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
-}
-
-.bule23 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule23 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule23 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule23 img {
-
-    padding: 10px;
-}
-
-.bule23:hover {
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
-}
-
-.bule33 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule33 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule33 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule33 img {
-
-    padding: 10px;
-}
-
-.bule33:hover {
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
-}
-
-
-.bule14 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 450px;
-    border: black;
-    padding-bottom: 5%;
-    margin: 10% 0%;
-
-}
-
-.bule14 p {
-
-    margin: 0px 20px;
-
-}
-
-.bule14 h1 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.bule14 img {
-
-    padding: 10px;
-}
-
-.bule14:hover {
-    box-shadow: 15px 15px 15px 15px rgba(37, 36, 36, 0.5);
 }
 
 footer p{
