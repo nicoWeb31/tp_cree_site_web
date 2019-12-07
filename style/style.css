@@ -164,17 +164,16 @@ li:hover .sub {
 .aside {
 
 
-    grid-area: aside;
+    
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 30px;
+    
 
 
-}
+} 
 
 .aside a {
-    margin-right: 200px;
+    
     padding: 10px;
     display: inline;
     text-decoration: none;
@@ -212,24 +211,26 @@ li:hover .sub {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin: 50px;
     grid-area: footer;
-    height: 60px;
+    height: 80px;
 
 }
 
 .footer a{
     display: flex;
     justify-content: center;
+    font-size: 1.5em;
     align-items: center;
     text-decoration: none;
     color: rgb(218, 200, 173);
     border: solid 4px rgba(139, 98, 98, 0.15);
-    padding: 10px;
-    margin: 20px;
+    padding: 20px;
+    margin: 40px;
     border-radius: 50px;
-    height: 50%;
+    height: 100%;
     font-weight: bold;
+    width: 200px;
 }
 
 .footer a:hover{
@@ -237,8 +238,7 @@ li:hover .sub {
     text-decoration: none;
     color: rgb(139, 98, 98);
     border: solid 4px rgba(139, 98, 98, 0.15);
-    padding: 10px;
-    margin: 20px;
+    
     border-radius: 50px;
     background-color:  rgb(218, 200, 173);
     font-weight: bold;
@@ -310,4 +310,10 @@ footer p{
     background-color:  rgba(139, 98, 98, 0.15);
 
 
+}
+/* ========================================================================== */
+/* mail de fin */
+/* ========================================================================== */
+.mailfin a{
+    display: inline;
 }
