@@ -13,71 +13,15 @@
 
 <body>
     <div class="grid-container ">
-        <div class="nave_bar row align-items-center justify-content-between">
+        
 
-            <div class="section_gauche">
-                <ul class="logo">
-                    <li><a href="https://adel.adrar-formation.eu"><img src="img/adrar50x50.png" alt="logo_adrar"></a>
-                    </li>
 
-                    <li><a href="https://www.formation-occ.com"><img src="img/occ_form.png" alt="logo_occ"></a></li>
-                </ul>
+    <?php include ('nav_bar.php') ; ?>
 
-            </div>
-            <div class="section_doite section_gauche">
-                <ul class="liens_nav">
-                    <li><a href="index.html">Acceuil</a>
-                        <!-- sous onglet 1 debut -->
-                        <ul class="sub">
-                            <li> <a href="https://www.youtube.com/user/grafikarttv/playlists">Grafik_art</a> </li>
-                            <li> <a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Traversy</a></li>
-                        </ul>
-                    </li>
-                    <!-- sous onglet 1 fin -->
-                    <li><a href="html_css.html">Html/css</a>
-                        <!-- sous onglet 2 debut -->
-                        <ul class="sub">
-                            <li> <a href="https://www.youtube.com/user/grafikarttv/playlists">Grafik_art</a> </li>
-                            <li> <a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Traversy</a></li>
-                        </ul>
-                    </li>
-                    <!-- sous onglet 2 fin -->
-                    <li><a href="js.html">Js</a>
-                        <!-- sous onglet 3 debut -->
-                        <ul class="sub">
-                            <li> <a href="https://www.youtube.com/user/grafikarttv/playlists">Grafik_art</a> </li>
-                            <li> <a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Traversy</a></li>
-                        </ul>
-                    </li>
-                    <!-- sousonglet 3  fin -->
-                    <li><a href="php.html">PhP</a>
-                        <!-- sousonglet 4 debut -->
-                        <ul class="sub">
-                            <li> <a href="https://www.youtube.com/user/grafikarttv/playlists">Grafik_art</a> </li>
-                            <li> <a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Traversy</a></li>
-                        </ul>
-                    </li>
-                    <!-- sousonglet 4 fin -->
-                    <li><a href="anglais.html">Anglais</a>
-                        <!-- sousonglet  debut 5 -->
-                        <ul class="sub">
-                            <li> <a href="https://www.youtube.com/user/grafikarttv/playlists">Grafik_art</a> </li>
-                            <li> <a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Traversy</a></li>
-                        </ul>
-                    </li>
-                    <!-- sousonglet 5 fin-->
-                    <li><a href="diver.html">Diver</a>
-                        <!-- sousonglet 6 debut -->
-                        <ul class="sub">
-                            <li> <a href="https://www.youtube.com/user/grafikarttv/playlists">Grafik_art</a> </li>
-                            <li> <a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Traversy</a></li>
-                        </ul>
-                    </li>
-                    <!-- sousonglet 6 fin -->
-                </ul>
 
-            </div>
-        </div>
+
+
+
         <div class="bando ">
             <h1>Liens-Outils-formation Dev</h1>
             <h2>Tous les liens outils utile pour la formation dev-web-php</h2>
@@ -153,27 +97,17 @@
 
         <div class="footer">
 
-            <a href="https://forum-francophone-linuxmint.fr/">linux</a>
-            <a href="https://zestedesavoir.com/forums/savoirs/site-web/">forum</a>
-            <a href="https://www.youtube.com/watch?v=7fHJJiJevXM">youtube</a>
-            <a href="https://caniuse.com/">CanIuse</a>
-
+        <?php include ('footer.php') ; ?>
 
         </div>
     </div>
+
     <div class="aside col-12 text-center">
 
-
-        <h1>Mail formateur : </h1>
-
-        <a href="catherinecostenoble@hotmail.fr">Anglais : Catherine Costenoble</a>
-        <a href="morganebonin@adrar-formation.com">Réseau : Morgane Bonin</a>
-        <a href="remynivois@adrar-formation.com">html/css : Rémy Nivois</a>
-        <a href="florencecalmettes@adrar-formation.com">Florence Calmettes</a>
-        <a href="laurencecollot@adrar-formation.com">Laurence Collot</a>
-        <a href="cvieillescaze@adrar-formation.com">Christophe Vieillecaze</a>
+    <?php include ('mail_form.php') ; ?>
 
     </div>
+
     <footer>
         <p>C'est dans l'effort que l'on trouve la satisfaction et non dans la réussite. Un plein effort est une
             pleine victoire.</p>
